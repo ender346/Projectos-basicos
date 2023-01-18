@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Android tlr</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <center><h1>Android tlr</h1></center>
+    </header>
+    <section>
+      <article>
+        <center>Apk lista para instalar</center>
+        <center><img src="img/tlr.png" width="400" /></center>  
+        <center><a href="https://youtu.be/BtLSaxRnIhc">download apk</a></center> 
+        <h4>hola como estan</h4>
+        <h3>Esta es una pagina de prueba de html y css</h3>
+        
+        
+        <body></body>
+      <footer>
+          <p>Copyright 2022</p>
+      </footer>    
+    </section>
+</body>
+</html>
