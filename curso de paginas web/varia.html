@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pagina web proyecto</title>
+</head>
+<body>
+    <table style="border: 1px solid black ">
+        <tr>
+            <th>producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Hola bits</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Hola bits</td>
+            <td>Gratis</td>
+        </tr>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+       <li>Elemento 1</li>
+       <li>Elemento 2</li>
+       <li>Elemento 3</li>
+       <li>Elemento 4</li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol> 
+                <li style="list-style-type:lower-alpha;">sub elemento</li>
+            </ol>
+        </li>
+    </ol>
+
+    <form action="/formulario" method="GET"> <!-- Formularios-->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre" /> <!--submit:boton, email, password, radio, checkbox, file-->
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="apellido">
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <input type="submit">
+        <br>
+        <button type="button">tipo button</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form> <!-- Formularios-->
+    <h1>Titulos primero</h>
+    <h2>Titulos</h2>
+    <h3>Titulos</h3>
+    <h4>Titulos</h4>
+    <h5>Titulos</h5>
+    <h6>Titulos</h6>
+    <hr> <!--etiquta de lineas y etiqueta de comentarios-->
+    <center><h3>pone las palabras en el centro</h3></center>
+    <p>etiqueta de parrafos</p>
+    <p>este texto es una <span style="color:aqua">prueba de css</span> 
+    <br> y como nos ayuda</p>
+    <a href="https://youtu.be/MJkdaVFHrto">ir a youtube</a> <!--vinculos de internet-->
+    <img src=  width="400" /> <!-- vinculos de imagenes-->
+</body>
+</html>

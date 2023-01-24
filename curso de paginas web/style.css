@@ -1,0 +1,113 @@
+#titulo{
+    color:aqua
+}
+p.texto{
+    color:blueviolet
+}
+p.especial{
+    color:bisque
+}
+div p {
+    color:aquamarine
+}
+div h2, div h3{
+    color:blanchedalmond
+}
+*{
+    font-size: 24px;
+   /* color:black */
+}
+/*
+.color{
+    color: #0f0;
+}
+*/
+.color {
+   /* border: 5px black solid; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5pt;
+}
+#fondo{
+    background-color: rgba(255,0,0);
+   /* opacity: 0.3; */
+    height: 400px;
+    background-image: url("img/Logoht.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    /* background: #f00 url("") repeat-y center bottom/ 100px 100px; */
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 25px 20px 15px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+a:link {
+    color:blueviolet;
+}
+a:visited {
+    color:aqua;
+}
+
+a:hover {
+    color:brown;
+}
+
+a:active {
+    color:coral;
+}
+
+table {
+    width: 100px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+
+}
+
+tr:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.card{
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 10px 15px ;
+    
+}
