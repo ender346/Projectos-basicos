@@ -1,0 +1,106 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="oper.css">
+</head>
+<body>
+    <header>
+       <h1 id="titulo">Softblog</h1>
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2 class="texto">programacion y ciberseguridad para principiantes</h2>
+            <p>Este blog esta enfocado en ayudar a saber las diferentes herrmientas que 
+            <br>puedes tener y adquirir de forma gratuita</p>
+            <img src="img/Logoht.png" /> 
+            <p>Espero que les ayude y que encuentren todo lo que buscan</p>
+        </article>
+        <article class="post">
+            <h3>lenguajes de programacion</h3>
+            <p>Estos son lenguajes de progrmacion enfocados en cada area de desarrollo</p>
+            <img src="img/Logoht.png" />
+            <p>Gracias</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+        <a href="#titulo">Ir al comienzo</a>
+        <a href="https://github.com/ender346/Projectos-basicos.git">Mi repositorio de GitHub</a>
+        </section>
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>
+
+#CSS
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color:  #efefef;
+}
+
+header {
+    background-color: #364552 ;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s  ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.30);
+}
+
+
+section article h2, section article p {
+ margin: 1rem;
+}
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:cornflowerblue;
+}
