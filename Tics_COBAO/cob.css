@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    text-align: center;
     background-color: black ;
     color: white;
     padding: 2rem 2rem;
@@ -24,6 +25,7 @@ header h1 {
 }
 
 section article {
+    text-align: center;
     transition: box-shadow 0.3s  ease;
     background-color: #fff;
     margin: 1rem 0;
@@ -101,3 +103,15 @@ footer a:hover {
     color: red;
     font-size: normal;
 }
+/* Sobre tics PROYECTOS */
+.exp {
+    padding: 40px;
+    text-align: center;
+}
+
+.exp .row div {
+ height: 250px;
+ background-color: aquamarine;
+ border: 3px solid red ;
+}
+/* Animacion cafetera */
